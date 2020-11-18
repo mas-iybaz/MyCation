@@ -1,8 +1,8 @@
 import React from "react";
 import propTypes from "prop-types";
 
-import imageHero from "assets/images/img-hero.jog";
-import imageHeroFrame from "assets/images/img-hero-frame.jog";
+import imageHero from "assets/images/img-hero.jpg";
+import imageHeroFrame from "assets/images/img-hero-frame.jpg";
 import iconCities from "assets/images/icons/icon-cities.svg";
 import iconTraveler from "assets/images/icons/icon-traveler.svg";
 import iconTreasure from "assets/images/icons/icon-treasure.svg";
@@ -91,7 +91,7 @@ export default function Hero(props) {
               src={imageHeroFrame}
               alt="Room with couches frame"
               className="img-fluid position-absolute"
-              style={{ margin: "0 -15px -15px 0", zIndex: 1 }}
+              style={{ margin: "0 -15px -15px 0" }}
             />
           </div>
         </div>
